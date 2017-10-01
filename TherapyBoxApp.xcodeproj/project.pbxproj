@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A9D28D71F66A95400FF60D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D28D61F66A95400FF60D4 /* AppDelegate.swift */; };
+		1A9D28D91F66A95400FF60D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D28D81F66A95400FF60D4 /* ViewController.swift */; };
+		1A9D28DC1F66A95400FF60D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9D28DA1F66A95400FF60D4 /* Main.storyboard */; };
+		1A9D28DF1F66A95400FF60D4 /* TherapyBoxApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D28DD1F66A95400FF60D4 /* TherapyBoxApp.xcdatamodeld */; };
+		1A9D28E11F66A95400FF60D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9D28E01F66A95400FF60D4 /* Assets.xcassets */; };
+		1A9D28E41F66A95400FF60D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9D28E21F66A95400FF60D4 /* LaunchScreen.storyboard */; };
+		1A9D28EF1F66A95400FF60D4 /* TherapyBoxAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D28EE1F66A95400FF60D4 /* TherapyBoxAppTests.swift */; };
+		1A9D28FA1F66A95400FF60D4 /* TherapyBoxAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D28F91F66A95400FF60D4 /* TherapyBoxAppUITests.swift */; };
+		1A9D290A1F6A8E5F00FF60D4 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D29091F6A8E5F00FF60D4 /* Weather.swift */; };
+		1A9D290E1F6A8F9300FF60D4 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D290D1F6A8F9300FF60D4 /* Profile.swift */; };
+		1A9D29111F6AA71C00FF60D4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9D29101F6AA71C00FF60D4 /* CoreLocation.framework */; };
+		1A9D29131F6AC5FC00FF60D4 /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D29121F6AC5FC00FF60D4 /* SearchResultsTableViewController.swift */; };
+		1A9D29171F6F0E5900FF60D4 /* WeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D29161F6F0E5900FF60D4 /* WeatherCollectionViewCell.swift */; };
+		1A9D29191F6F2C4400FF60D4 /* SearchLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D29181F6F2C4400FF60D4 /* SearchLocations.swift */; };
+		1A9D291B1F711C6A00FF60D4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D291A1F711C6A00FF60D4 /* SignInViewController.swift */; };
+		1A9D291D1F713F4600FF60D4 /* LoggedInProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D291C1F713F4600FF60D4 /* LoggedInProfile.swift */; };
+		1A9D291F1F713FB400FF60D4 /* OtherProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D291E1F713FB400FF60D4 /* OtherProfile.swift */; };
+		1A9D29211F714CB000FF60D4 /* SignOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D29201F714CB000FF60D4 /* SignOutViewController.swift */; };
+		1A9D292A1F71843200FF60D4 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D29291F71843200FF60D4 /* IntentHandler.swift */; };
+		1A9D29321F71843200FF60D4 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9D29311F71843200FF60D4 /* IntentsUI.framework */; };
+		1A9D29351F71843200FF60D4 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D29341F71843200FF60D4 /* IntentViewController.swift */; };
+		1A9D29381F71843200FF60D4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9D29361F71843200FF60D4 /* MainInterface.storyboard */; };
+		1A9D293C1F71843200FF60D4 /* SiriExtensionUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A9D29301F71843200FF60D4 /* SiriExtensionUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1A9D293F1F71843200FF60D4 /* SiriExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A9D29271F71843200FF60D4 /* SiriExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A9D28EB1F66A95400FF60D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A9D28CB1F66A95400FF60D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A9D28D21F66A95400FF60D4;
+			remoteInfo = TherapyBoxApp;
+		};
+		1A9D28F61F66A95400FF60D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A9D28CB1F66A95400FF60D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A9D28D21F66A95400FF60D4;
+			remoteInfo = TherapyBoxApp;
+		};
+		1A9D293A1F71843200FF60D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A9D28CB1F66A95400FF60D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A9D292F1F71843200FF60D4;
+			remoteInfo = SiriExtensionUI;
+		};
+		1A9D293D1F71843200FF60D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A9D28CB1F66A95400FF60D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A9D29261F71843200FF60D4;
+			remoteInfo = SiriExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A9D29461F71843200FF60D4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1A9D293C1F71843200FF60D4 /* SiriExtensionUI.appex in Embed App Extensions */,
+				1A9D293F1F71843200FF60D4 /* SiriExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A9D28D31F66A95400FF60D4 /* TherapyBoxApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TherapyBoxApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9D28D61F66A95400FF60D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A9D28D81F66A95400FF60D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A9D28DB1F66A95400FF60D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A9D28DE1F66A95400FF60D4 /* TherapyBoxApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TherapyBoxApp.xcdatamodel; sourceTree = "<group>"; };
+		1A9D28E01F66A95400FF60D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A9D28E31F66A95400FF60D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A9D28E51F66A95400FF60D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9D28EA1F66A95400FF60D4 /* TherapyBoxAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TherapyBoxAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9D28EE1F66A95400FF60D4 /* TherapyBoxAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyBoxAppTests.swift; sourceTree = "<group>"; };
+		1A9D28F01F66A95400FF60D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9D28F51F66A95400FF60D4 /* TherapyBoxAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TherapyBoxAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9D28F91F66A95400FF60D4 /* TherapyBoxAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyBoxAppUITests.swift; sourceTree = "<group>"; };
+		1A9D28FB1F66A95400FF60D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9D29091F6A8E5F00FF60D4 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		1A9D290D1F6A8F9300FF60D4 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		1A9D29101F6AA71C00FF60D4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1A9D29121F6AC5FC00FF60D4 /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
+		1A9D29161F6F0E5900FF60D4 /* WeatherCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCollectionViewCell.swift; sourceTree = "<group>"; };
+		1A9D29181F6F2C4400FF60D4 /* SearchLocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchLocations.swift; sourceTree = "<group>"; };
+		1A9D291A1F711C6A00FF60D4 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		1A9D291C1F713F4600FF60D4 /* LoggedInProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedInProfile.swift; sourceTree = "<group>"; };
+		1A9D291E1F713FB400FF60D4 /* OtherProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherProfile.swift; sourceTree = "<group>"; };
+		1A9D29201F714CB000FF60D4 /* SignOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignOutViewController.swift; sourceTree = "<group>"; };
+		1A9D29221F7182A600FF60D4 /* TherapyBoxApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TherapyBoxApp.entitlements; sourceTree = "<group>"; };
+		1A9D29271F71843200FF60D4 /* SiriExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiriExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9D29291F71843200FF60D4 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		1A9D292B1F71843200FF60D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9D29301F71843200FF60D4 /* SiriExtensionUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiriExtensionUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9D29311F71843200FF60D4 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		1A9D29341F71843200FF60D4 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		1A9D29371F71843200FF60D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		1A9D29391F71843200FF60D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A9D28D01F66A95400FF60D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9D29111F6AA71C00FF60D4 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9D28E71F66A95400FF60D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9D28F21F66A95400FF60D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9D29241F71843200FF60D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9D292D1F71843200FF60D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9D29321F71843200FF60D4 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A9D28CA1F66A95400FF60D4 = {
+			isa = PBXGroup;
+			children = (
+				1A9D28D51F66A95400FF60D4 /* TherapyBoxApp */,
+				1A9D28ED1F66A95400FF60D4 /* TherapyBoxAppTests */,
+				1A9D28F81F66A95400FF60D4 /* TherapyBoxAppUITests */,
+				1A9D29281F71843200FF60D4 /* SiriExtension */,
+				1A9D29331F71843200FF60D4 /* SiriExtensionUI */,
+				1A9D28D41F66A95400FF60D4 /* Products */,
+				1A9D290F1F6AA71C00FF60D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A9D28D41F66A95400FF60D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A9D28D31F66A95400FF60D4 /* TherapyBoxApp.app */,
+				1A9D28EA1F66A95400FF60D4 /* TherapyBoxAppTests.xctest */,
+				1A9D28F51F66A95400FF60D4 /* TherapyBoxAppUITests.xctest */,
+				1A9D29271F71843200FF60D4 /* SiriExtension.appex */,
+				1A9D29301F71843200FF60D4 /* SiriExtensionUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A9D28D51F66A95400FF60D4 /* TherapyBoxApp */ = {
+			isa = PBXGroup;
+			children = (
+				1A9D29221F7182A600FF60D4 /* TherapyBoxApp.entitlements */,
+				1A9D29081F6A8E4200FF60D4 /* Objects */,
+				1A9D28D61F66A95400FF60D4 /* AppDelegate.swift */,
+				1A9D28D81F66A95400FF60D4 /* ViewController.swift */,
+				1A9D29121F6AC5FC00FF60D4 /* SearchResultsTableViewController.swift */,
+				1A9D291A1F711C6A00FF60D4 /* SignInViewController.swift */,
+				1A9D29201F714CB000FF60D4 /* SignOutViewController.swift */,
+				1A9D28DA1F66A95400FF60D4 /* Main.storyboard */,
+				1A9D28E01F66A95400FF60D4 /* Assets.xcassets */,
+				1A9D28E21F66A95400FF60D4 /* LaunchScreen.storyboard */,
+				1A9D28E51F66A95400FF60D4 /* Info.plist */,
+				1A9D28DD1F66A95400FF60D4 /* TherapyBoxApp.xcdatamodeld */,
+			);
+			path = TherapyBoxApp;
+			sourceTree = "<group>";
+		};
+		1A9D28ED1F66A95400FF60D4 /* TherapyBoxAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A9D28EE1F66A95400FF60D4 /* TherapyBoxAppTests.swift */,
+				1A9D28F01F66A95400FF60D4 /* Info.plist */,
+			);
+			path = TherapyBoxAppTests;
+			sourceTree = "<group>";
+		};
+		1A9D28F81F66A95400FF60D4 /* TherapyBoxAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A9D28F91F66A95400FF60D4 /* TherapyBoxAppUITests.swift */,
+				1A9D28FB1F66A95400FF60D4 /* Info.plist */,
+			);
+			path = TherapyBoxAppUITests;
+			sourceTree = "<group>";
+		};
+		1A9D29081F6A8E4200FF60D4 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				1A9D29091F6A8E5F00FF60D4 /* Weather.swift */,
+				1A9D290D1F6A8F9300FF60D4 /* Profile.swift */,
+				1A9D291E1F713FB400FF60D4 /* OtherProfile.swift */,
+				1A9D291C1F713F4600FF60D4 /* LoggedInProfile.swift */,
+				1A9D29161F6F0E5900FF60D4 /* WeatherCollectionViewCell.swift */,
+				1A9D29181F6F2C4400FF60D4 /* SearchLocations.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		1A9D290F1F6AA71C00FF60D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A9D29101F6AA71C00FF60D4 /* CoreLocation.framework */,
+				1A9D29311F71843200FF60D4 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A9D29281F71843200FF60D4 /* SiriExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1A9D29291F71843200FF60D4 /* IntentHandler.swift */,
+				1A9D292B1F71843200FF60D4 /* Info.plist */,
+			);
+			path = SiriExtension;
+			sourceTree = "<group>";
+		};
+		1A9D29331F71843200FF60D4 /* SiriExtensionUI */ = {
+			isa = PBXGroup;
+			children = (
+				1A9D29341F71843200FF60D4 /* IntentViewController.swift */,
+				1A9D29361F71843200FF60D4 /* MainInterface.storyboard */,
+				1A9D29391F71843200FF60D4 /* Info.plist */,
+			);
+			path = SiriExtensionUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A9D28D21F66A95400FF60D4 /* TherapyBoxApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9D28FE1F66A95400FF60D4 /* Build configuration list for PBXNativeTarget "TherapyBoxApp" */;
+			buildPhases = (
+				1A9D28CF1F66A95400FF60D4 /* Sources */,
+				1A9D28D01F66A95400FF60D4 /* Frameworks */,
+				1A9D28D11F66A95400FF60D4 /* Resources */,
+				1A9D29461F71843200FF60D4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A9D293B1F71843200FF60D4 /* PBXTargetDependency */,
+				1A9D293E1F71843200FF60D4 /* PBXTargetDependency */,
+			);
+			name = TherapyBoxApp;
+			productName = TherapyBoxApp;
+			productReference = 1A9D28D31F66A95400FF60D4 /* TherapyBoxApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A9D28E91F66A95400FF60D4 /* TherapyBoxAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9D29011F66A95400FF60D4 /* Build configuration list for PBXNativeTarget "TherapyBoxAppTests" */;
+			buildPhases = (
+				1A9D28E61F66A95400FF60D4 /* Sources */,
+				1A9D28E71F66A95400FF60D4 /* Frameworks */,
+				1A9D28E81F66A95400FF60D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A9D28EC1F66A95400FF60D4 /* PBXTargetDependency */,
+			);
+			name = TherapyBoxAppTests;
+			productName = TherapyBoxAppTests;
+			productReference = 1A9D28EA1F66A95400FF60D4 /* TherapyBoxAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A9D28F41F66A95400FF60D4 /* TherapyBoxAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9D29041F66A95400FF60D4 /* Build configuration list for PBXNativeTarget "TherapyBoxAppUITests" */;
+			buildPhases = (
+				1A9D28F11F66A95400FF60D4 /* Sources */,
+				1A9D28F21F66A95400FF60D4 /* Frameworks */,
+				1A9D28F31F66A95400FF60D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A9D28F71F66A95400FF60D4 /* PBXTargetDependency */,
+			);
+			name = TherapyBoxAppUITests;
+			productName = TherapyBoxAppUITests;
+			productReference = 1A9D28F51F66A95400FF60D4 /* TherapyBoxAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1A9D29261F71843200FF60D4 /* SiriExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9D29431F71843200FF60D4 /* Build configuration list for PBXNativeTarget "SiriExtension" */;
+			buildPhases = (
+				1A9D29231F71843200FF60D4 /* Sources */,
+				1A9D29241F71843200FF60D4 /* Frameworks */,
+				1A9D29251F71843200FF60D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiriExtension;
+			productName = SiriExtension;
+			productReference = 1A9D29271F71843200FF60D4 /* SiriExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1A9D292F1F71843200FF60D4 /* SiriExtensionUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9D29401F71843200FF60D4 /* Build configuration list for PBXNativeTarget "SiriExtensionUI" */;
+			buildPhases = (
+				1A9D292C1F71843200FF60D4 /* Sources */,
+				1A9D292D1F71843200FF60D4 /* Frameworks */,
+				1A9D292E1F71843200FF60D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiriExtensionUI;
+			productName = SiriExtensionUI;
+			productReference = 1A9D29301F71843200FF60D4 /* SiriExtensionUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A9D28CB1F66A95400FF60D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jake Holdom";
+				TargetAttributes = {
+					1A9D28D21F66A95400FF60D4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ENSE35D2Q3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					1A9D28E91F66A95400FF60D4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ENSE35D2Q3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A9D28D21F66A95400FF60D4;
+					};
+					1A9D28F41F66A95400FF60D4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ENSE35D2Q3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A9D28D21F66A95400FF60D4;
+					};
+					1A9D29261F71843200FF60D4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ENSE35D2Q3;
+						ProvisioningStyle = Automatic;
+					};
+					1A9D292F1F71843200FF60D4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ENSE35D2Q3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1A9D28CE1F66A95400FF60D4 /* Build configuration list for PBXProject "TherapyBoxApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A9D28CA1F66A95400FF60D4;
+			productRefGroup = 1A9D28D41F66A95400FF60D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A9D28D21F66A95400FF60D4 /* TherapyBoxApp */,
+				1A9D28E91F66A95400FF60D4 /* TherapyBoxAppTests */,
+				1A9D28F41F66A95400FF60D4 /* TherapyBoxAppUITests */,
+				1A9D29261F71843200FF60D4 /* SiriExtension */,
+				1A9D292F1F71843200FF60D4 /* SiriExtensionUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A9D28D11F66A95400FF60D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9D28E41F66A95400FF60D4 /* LaunchScreen.storyboard in Resources */,
+				1A9D28E11F66A95400FF60D4 /* Assets.xcassets in Resources */,
+				1A9D28DC1F66A95400FF60D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9D28E81F66A95400FF60D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9D28F31F66A95400FF60D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9D29251F71843200FF60D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9D292E1F71843200FF60D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9D29381F71843200FF60D4 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A9D28CF1F66A95400FF60D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9D290A1F6A8E5F00FF60D4 /* Weather.swift in Sources */,
+				1A9D290E1F6A8F9300FF60D4 /* Profile.swift in Sources */,
+				1A9D29191F6F2C4400FF60D4 /* SearchLocations.swift in Sources */,
+				1A9D291F1F713FB400FF60D4 /* OtherProfile.swift in Sources */,
+				1A9D29131F6AC5FC00FF60D4 /* SearchResultsTableViewController.swift in Sources */,
+				1A9D291D1F713F4600FF60D4 /* LoggedInProfile.swift in Sources */,
+				1A9D28DF1F66A95400FF60D4 /* TherapyBoxApp.xcdatamodeld in Sources */,
+				1A9D291B1F711C6A00FF60D4 /* SignInViewController.swift in Sources */,
+				1A9D28D91F66A95400FF60D4 /* ViewController.swift in Sources */,
+				1A9D28D71F66A95400FF60D4 /* AppDelegate.swift in Sources */,
+				1A9D29211F714CB000FF60D4 /* SignOutViewController.swift in Sources */,
+				1A9D29171F6F0E5900FF60D4 /* WeatherCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9D28E61F66A95400FF60D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9D28EF1F66A95400FF60D4 /* TherapyBoxAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9D28F11F66A95400FF60D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9D28FA1F66A95400FF60D4 /* TherapyBoxAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9D29231F71843200FF60D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9D292A1F71843200FF60D4 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9D292C1F71843200FF60D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9D29351F71843200FF60D4 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A9D28EC1F66A95400FF60D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A9D28D21F66A95400FF60D4 /* TherapyBoxApp */;
+			targetProxy = 1A9D28EB1F66A95400FF60D4 /* PBXContainerItemProxy */;
+		};
+		1A9D28F71F66A95400FF60D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A9D28D21F66A95400FF60D4 /* TherapyBoxApp */;
+			targetProxy = 1A9D28F61F66A95400FF60D4 /* PBXContainerItemProxy */;
+		};
+		1A9D293B1F71843200FF60D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A9D292F1F71843200FF60D4 /* SiriExtensionUI */;
+			targetProxy = 1A9D293A1F71843200FF60D4 /* PBXContainerItemProxy */;
+		};
+		1A9D293E1F71843200FF60D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A9D29261F71843200FF60D4 /* SiriExtension */;
+			targetProxy = 1A9D293D1F71843200FF60D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A9D28DA1F66A95400FF60D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9D28DB1F66A95400FF60D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A9D28E21F66A95400FF60D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9D28E31F66A95400FF60D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1A9D29361F71843200FF60D4 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9D29371F71843200FF60D4 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A9D28FC1F66A95400FF60D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A9D28FD1F66A95400FF60D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A9D28FF1F66A95400FF60D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TherapyBoxApp/TherapyBoxApp.entitlements;
+				DEVELOPMENT_TEAM = ENSE35D2Q3;
+				INFOPLIST_FILE = TherapyBoxApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JakeHoldom.TherapyBoxApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1A9D29001F66A95400FF60D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TherapyBoxApp/TherapyBoxApp.entitlements;
+				DEVELOPMENT_TEAM = ENSE35D2Q3;
+				INFOPLIST_FILE = TherapyBoxApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JakeHoldom.TherapyBoxApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1A9D29021F66A95400FF60D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ENSE35D2Q3;
+				INFOPLIST_FILE = TherapyBoxAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JakeHoldom.TherapyBoxAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TherapyBoxApp.app/TherapyBoxApp";
+			};
+			name = Debug;
+		};
+		1A9D29031F66A95400FF60D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ENSE35D2Q3;
+				INFOPLIST_FILE = TherapyBoxAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JakeHoldom.TherapyBoxAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TherapyBoxApp.app/TherapyBoxApp";
+			};
+			name = Release;
+		};
+		1A9D29051F66A95400FF60D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ENSE35D2Q3;
+				INFOPLIST_FILE = TherapyBoxAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JakeHoldom.TherapyBoxAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TherapyBoxApp;
+			};
+			name = Debug;
+		};
+		1A9D29061F66A95400FF60D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ENSE35D2Q3;
+				INFOPLIST_FILE = TherapyBoxAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JakeHoldom.TherapyBoxAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TherapyBoxApp;
+			};
+			name = Release;
+		};
+		1A9D29411F71843200FF60D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ENSE35D2Q3;
+				INFOPLIST_FILE = SiriExtensionUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JakeHoldom.TherapyBoxApp.SiriExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1A9D29421F71843200FF60D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ENSE35D2Q3;
+				INFOPLIST_FILE = SiriExtensionUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JakeHoldom.TherapyBoxApp.SiriExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1A9D29441F71843200FF60D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ENSE35D2Q3;
+				INFOPLIST_FILE = SiriExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JakeHoldom.TherapyBoxApp.SiriExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1A9D29451F71843200FF60D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ENSE35D2Q3;
+				INFOPLIST_FILE = SiriExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JakeHoldom.TherapyBoxApp.SiriExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A9D28CE1F66A95400FF60D4 /* Build configuration list for PBXProject "TherapyBoxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9D28FC1F66A95400FF60D4 /* Debug */,
+				1A9D28FD1F66A95400FF60D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A9D28FE1F66A95400FF60D4 /* Build configuration list for PBXNativeTarget "TherapyBoxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9D28FF1F66A95400FF60D4 /* Debug */,
+				1A9D29001F66A95400FF60D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A9D29011F66A95400FF60D4 /* Build configuration list for PBXNativeTarget "TherapyBoxAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9D29021F66A95400FF60D4 /* Debug */,
+				1A9D29031F66A95400FF60D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A9D29041F66A95400FF60D4 /* Build configuration list for PBXNativeTarget "TherapyBoxAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9D29051F66A95400FF60D4 /* Debug */,
+				1A9D29061F66A95400FF60D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A9D29401F71843200FF60D4 /* Build configuration list for PBXNativeTarget "SiriExtensionUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9D29411F71843200FF60D4 /* Debug */,
+				1A9D29421F71843200FF60D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A9D29431F71843200FF60D4 /* Build configuration list for PBXNativeTarget "SiriExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9D29441F71843200FF60D4 /* Debug */,
+				1A9D29451F71843200FF60D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A9D28DD1F66A95400FF60D4 /* TherapyBoxApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A9D28DE1F66A95400FF60D4 /* TherapyBoxApp.xcdatamodel */,
+			);
+			currentVersion = 1A9D28DE1F66A95400FF60D4 /* TherapyBoxApp.xcdatamodel */;
+			path = TherapyBoxApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1A9D28CB1F66A95400FF60D4 /* Project object */;
+}
